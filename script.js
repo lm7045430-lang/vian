@@ -68,7 +68,7 @@ function scrollToSection(id) {
 // ubah bagian 2026.
 
 const startDate =
-    new Date("2026-08-25T00:00:00");
+    new Date("2026-08-15T00:00:00");
 
 
 function updateCounter() {
