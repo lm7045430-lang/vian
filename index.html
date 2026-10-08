@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Untuk Liana 💙</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         MUSIK
+    ========================== -->
+
+    <audio id="music" loop>
+        <source src="asset/golden.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- =========================
+         BACKGROUND
+    ========================== -->
+
+    <div class="stars"></div>
+
+
+    <!-- =========================
+         HALAMAN PEMBUKA
+    ========================== -->
+
+    <section id="opening" class="screen active">
+
+        <div class="opening-card">
+
+            <div class="heart">
+                💙
+            </div>
+
+            <p class="small-text">
+                Ada sesuatu untukmu...
+            </p>
+
+            <h1>
+                Happy Birthday
+            </h1>
+
+            <h2>
+                Liana
+            </h2>
+
+            <p>
+                Walaupun kita sedang berjauhan,
+                aku tetap ingin membuat hari spesialmu
+                terasa sedikit lebih dekat.
+            </p>
+
+            <button id="openButton">
+                Buka Hadiah 🎁
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         KONTEN UTAMA
+    ========================== -->
+
+    <main id="mainContent" class="hidden">
+
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="small-text">
+                    Untuk seseorang yang sangat spesial
+                </p>
+
+                <h1>
+                    Selamat Ulang Tahun,
+                    <span>Liana 💙</span>
+                </h1>
+
+                <p class="subtitle">
+                    Dari seseorang yang mungkin sedang jauh
+                    darimu, tapi hatinya selalu dekat.
+                </p>
+
+                <button
+                    class="scroll-button"
+                    onclick="scrollToSection('ldr')"
+                >
+                    Ada sesuatu untukmu ↓
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LDR
+        ========================== -->
+
+        <section
+            id="ldr"
+            class="section ldr-section"
+        >
+
+            <p class="section-label">
+                OUR LDR
+            </p>
+
+            <h2>
+                Jauh di kota,<br>
+                dekat di hati. 💙
+            </h2>
+
+            <p class="description">
+                Kita mungkin tidak bisa bertemu setiap hari.
+                Tidak bisa selalu berada di samping satu sama lain.
+                Tapi jarak tidak pernah membuat perasaanku
+                menjadi lebih sedikit.
+            </p>
+
+
+            <div class="distance-card">
+
+                <div class="city">
+
+                    <span>
+                        📍
+                    </span>
+
+                    <p>
+                        jawa timur
+                    </p>
+
+                </div>
+
+
+                <div class="distance-line">
+
+                    <span>
+                        ❤️
+                    </span>
+
+                </div>
+
+
+                <div class="city">
+
+                    <span>
+                        📍
+                    </span>
+
+                    <p>
+                        tangerang selatan
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             OUR STORY
+        ========================== -->
+
+        <section class="section">
+
+            <p class="section-label">
+                OUR STORY
+            </p>
+
+            <h2>
+                Sejak 25 Agustus ❤️
+            </h2>
+
+            <p class="description">
+                Dari satu tanggal sederhana,
+                dimulailah cerita yang sampai sekarang
+                masih ingin aku lanjutkan.
+            </p>
+
+
+            <div class="counter-container">
+
+                <div class="counter-box">
+
+                    <span id="days">
+                        0
+                    </span>
+
+                    <small>
+                        Hari
+                    </small>
+
+                </div>
+
+
+                <div class="counter-box">
+
+                    <span id="hours">
+                        0
+                    </span>
+
+                    <small>
+                        Jam
+                    </small>
+
+                </div>
+
+
+                <div class="counter-box">
+
+                    <span id="minutes">
+                        0
+                    </span>
+
+                    <small>
+                        Menit
+                    </small>
+
+                </div>
+
+
+                <div class="counter-box">
+
+                    <span id="seconds">
+                        0
+                    </span>
+
+                    <small>
+                        Detik
+                    </small>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             DUA KOTA
+        ========================== -->
+
+        <section class="section cities-section">
+
+            <p class="section-label">
+                TWO CITIES
+            </p>
+
+            <h2>
+                Dua kota,<br>
+                satu cerita. 🌙
+            </h2>
+
+            <p class="description">
+                Kita memang belum punya foto bersama.
+                Tapi bukan berarti kita tidak punya
+                cerita untuk dikenang.
+            </p>
+
+
+            <div class="city-map">
+
+                <div class="city-point left">
+
+                    <div class="location-icon">
+                        📍
+                    </div>
+
+                    <h3>
+                        sangkar burung
+                    </h3>
+
+                    <p>
+                        Tempat aku menunggumu
+                    </p>
+
+                </div>
+
+
+                <div class="connection">
+
+                    <div class="connection-line"></div>
+
+                    <div class="connection-heart">
+                        💙
+                    </div>
+
+                </div>
+
+
+                <div class="city-point right">
+
+                    <div class="location-icon">
+                        📍
+                    </div>
+
+                    <h3>
+                        istana
+                    </h3>
+
+                    <p>
+                        Tempat kamu berada
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="distance-message">
+
+                <div class="quote-icon">
+                    "
+                </div>
+
+                <p>
+                    Jarak kita mungkin sejauh dua kota,
+                    tapi setiap hari selalu ada cara
+                    untuk membuatmu terasa dekat.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             HAL-HAL KECIL TENTANG KITA
+        ========================== -->
+
+        <section class="section little-things">
+
+            <p class="section-label">
+                LITTLE THINGS
+            </p>
+
+            <h2>
+                Hal-hal kecil tentang kita 💙
+            </h2>
+
+            <p class="description">
+                Karena hubungan bukan hanya tentang foto.
+                Kadang hal kecil justru menjadi
+                kenangan yang paling berharga.
+            </p>
+
+
+            <div class="things-grid">
+
+
+                <div class="thing-card">
+
+    <div class="thing-icon">
+        💬
+    </div>
+
+    <h3>
+        "Lagi apa kamu?"
+    </h3>
+
+    <p>
+        Sesederhana itu, tapi entah kenapa
+        pertanyaan kecil darimu selalu bisa
+        bikin aku senang.
+        Mungkin karena yang bertanya adalah kamu.
+    </p>
+
+</div>
+
+              <div class="thing-card">
+
+    <div class="thing-icon">
+        🎧
+    </div>
+
+    <h3>
+        I Just Wanna Be Yours
+    </h3>
+
+    <p>
+        Lagu ini punya tempat tersendiri buat kita.
+        Setiap kali dengar lagu ini,
+        entah kenapa aku selalu kepikiran kamu.
+    </p>
+
+</div>
+
+                <div class="thing-card">
+
+    <div class="thing-icon">
+        🌙
+    </div>
+
+    <h3>
+        Kehidupan Sehari-hari
+    </h3>
+
+    <p>
+        Cerita tentang hari kita,
+        hal-hal kecil yang terjadi,
+        saling cerita apa yang dilakukan,
+        sampai obrolan random yang sebenarnya
+        nggak penting-penting amat.
+        Tapi justru hal-hal kecil itu yang aku suka.
+    </p>
+
+</div>
+
+<div class="thing-card">
+
+    <div class="thing-icon">
+        👀
+    </div>
+
+    <h3>
+        Matanya
+    </h3>
+
+    <p>
+        Aku suka matamu.
+        Ada sesuatu dari tatapanmu
+        yang selalu bikin aku susah
+        buat nggak memperhatikanmu.
+    </p>
+
+</div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             RENCANA PERTEMUAN
+        ========================== -->
+
+        <section class="section meeting-section">
+
+            <p class="section-label">
+                SOMEDAY
+            </p>
+
+            <h2>
+                Suatu hari nanti... ✈️
+            </h2>
+
+            <p class="description">
+                Sekarang kita mungkin hanya bisa
+                bertemu melalui layar.
+                Tapi aku percaya suatu hari nanti
+                semuanya akan berubah.
+            </p>
+
+
+            <div class="future-card">
+
+                <div class="future-icon">
+                    📸
+                </div>
+
+                <h3>
+                    Foto pertama kita
+                </h3>
+
+                <p>
+                    Kita belum punya foto bersama.
+                    Dan mungkin itu bukan sesuatu
+                    yang harus disesali.
+                </p>
+
+                <p>
+                    Karena nanti akan ada satu foto
+                    yang jauh lebih berarti:
+                    foto pertama kita setelah semua
+                    jarak ini berhasil kita lewati.
+                </p>
+
+                <div class="future-date">
+                    OUR FIRST PHOTO
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SURAT
+        ========================== -->
+
+        <section
+            id="letter"
+            class="section letter-section"
+        >
+
+            <p class="section-label">
+                A LETTER FOR YOU
+            </p>
+
+
+            <div class="letter">
+
+                <div class="letter-top">
+                    💌
+                </div>
+
+                <h2>
+                    Untuk Liana,
+                    sayangku.
+                </h2>
+
+
+                <p>
+                    Selamat ulang tahun, sayang. ❤️
+                </p>
+
+
+                <p>
+                    Hari ini mungkin aku belum bisa berada
+                    di sampingmu secara langsung.
+                    Aku belum bisa memberikan hadiah ini
+                    sambil melihat senyummu secara langsung.
+                </p>
+
+
+                <p>
+                    Kita sedang berada di kota yang berbeda,
+                    dan aku tahu LDR bukan selalu sesuatu
+                    yang mudah.
+                </p>
+
+
+                <p>
+                    Ada saatnya kita ingin bertemu,
+                    ingin menghabiskan waktu bersama,
+                    atau sekadar ingin berada di tempat
+                    yang sama.
+                </p>
+
+
+                <p>
+                    Tapi dari semua jarak itu,
+                    aku ingin kamu tahu satu hal:
+                    <strong>
+                        aku tetap memilih kamu.
+                    </strong>
+                </p>
+
+
+                <p>
+                    Terima kasih karena sudah menjadi bagian
+                    dari hidupku.
+                    Terima kasih untuk semua cerita,
+                    perhatian, tawa, dan waktu yang sudah kita
+                    lewati bersama.
+                </p>
+
+
+                <p>
+                    Semoga di umurmu yang sekarang,
+                    semakin banyak hal baik yang datang.
+                    Semoga semua impianmu perlahan
+                    menjadi kenyataan.
+                </p>
+
+
+                <p>
+                    Dan semoga suatu hari nanti,
+                    kita tidak lagi merayakan ulang tahun
+                    melalui layar.
+                </p>
+
+
+                <p>
+                    Semoga nanti aku bisa mengucapkan
+                    <strong>
+                        "Selamat ulang tahun, sayang"
+                    </strong>
+                    tepat di depanmu.
+                </p>
+
+
+                <p class="signature">
+                    Dari seseorang yang sangat menyayangimu,
+                    <br>
+                    <strong>
+                        ❤️
+                    </strong>
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             MINI GAME
+        ========================== -->
+
+        <section class="section game-section">
+
+            <p class="section-label">
+                A LITTLE SURPRISE
+            </p>
+
+            <h2>
+                Kumpulkan 5 hati 💙
+            </h2>
+
+            <p class="description">
+                Ada pesan rahasia yang menunggumu.
+                Klik semua hati yang muncul!
+            </p>
+
+
+            <div id="gameArea">
+
+                <div id="gameHeart">
+                    💙
+                </div>
+
+            </div>
+
+
+            <p class="game-score">
+                Hati terkumpul:
+                <strong>
+                    <span id="score">
+                        0
+                    </span>/5
+                </strong>
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             PESAN RAHASIA
+        ========================== -->
+
+        <section
+            id="secret"
+            class="section secret-section hidden"
+        >
+
+            <div class="secret-card">
+
+                <div class="big-heart">
+                    💙
+                </div>
+
+                <h2>
+                    Kamu berhasil!
+                </h2>
+
+
+                <p>
+                    Kalau kamu sampai di sini,
+                    berarti kamu sudah menemukan
+                    semua hati yang aku sembunyikan.
+                </p>
+
+
+                <p class="secret-message">
+                    Dan ada satu hal yang sebenarnya
+                    ingin aku bilang sejak awal...
+                </p>
+
+
+                <h1>
+                    Aku sayang kamu,
+                    Liana. ❤️
+                </h1>
+
+
+                <p>
+                    Jarak kita mungkin jauh,
+                    tapi aku akan selalu berusaha
+                    membuatmu merasa dicintai.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FOOTER
+        ========================== -->
+
+        <footer>
+
+            <p>
+                Made with ❤️ for Liana
+            </p>
+
+            <p>
+                From someone who loves you 💙
+            </p>
+
+        </footer>
+
+    </main>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
